@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.27734375" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="237.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javase.proyecto.ar.com.educacionit.vehiculos.ventanas.VendedoresVentanaController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+         <children>
+            <TableView fx:id="tblVendedores" layoutX="-2.0" layoutY="-1.0" prefHeight="237.0" prefWidth="211.0">
+              <columns>
+                <TableColumn fx:id="colNombre" prefWidth="105.5" text="Nombre" />
+                <TableColumn fx:id="colApellido" prefWidth="105.5" text="Apellido" />
+              </columns>
+            </TableView>
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="235.0" prefWidth="512.0">
+         <children>
+            <Label layoutX="15.0" layoutY="10.0" text="Datos del Vendedor" />
+            <Label layoutX="15.0" layoutY="50.0" text="Nombre:" />
+            <Label layoutX="15.0" layoutY="85.0" text="Apellido:" />
+            <Label layoutX="15.0" layoutY="120.0" text="Nro. de Documento:" />
+            <Label layoutX="15.0" layoutY="155.0" text="Autos Vendidos:" />
+            <Separator layoutX="10.0" layoutY="191.0" prefHeight="4.0" prefWidth="528.0" />
+            <Button fx:id="btnNuevo" layoutX="13.0" layoutY="200.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="80.0" text="Nuevo" />
+            <Button fx:id="btnEditar" layoutX="98.0" layoutY="200.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="80.0" text="Editar" />
+            <Button fx:id="btnBorrar" layoutX="183.0" layoutY="200.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="80.0" text="Borrar" />
+            <Button fx:id="btnCerrar" layoutX="457.0" layoutY="200.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="80.0" text="Cerrar" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>
