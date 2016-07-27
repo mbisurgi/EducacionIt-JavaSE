@@ -25,7 +25,7 @@
             <Label layoutX="15.0" layoutY="190.0" text="Marca:" />
             <Label layoutX="15.0" layoutY="225.0" text="Color:" />
             <Label layoutX="15.0" layoutY="260.0" text="Precio:" />
-            <Button fx:id="btnNuevo" layoutX="15.0" layoutY="357.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="80.0" text="Nuevo" />
+            <Button fx:id="btnNuevo" layoutX="15.0" layoutY="357.0" mnemonicParsing="false" onAction="#btnNuevoOnMouseClicked" prefHeight="27.0" prefWidth="80.0" text="Nuevo" />
             <Button fx:id="btnEditar" layoutX="100.0" layoutY="357.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="80.0" text="Editar" />
             <Button fx:id="btnBorrar" layoutX="185.0" layoutY="357.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="80.0" text="Borrar" />
             <Button fx:id="btnCerrar" layoutX="461.0" layoutY="357.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="80.0" text="Cerrar" />

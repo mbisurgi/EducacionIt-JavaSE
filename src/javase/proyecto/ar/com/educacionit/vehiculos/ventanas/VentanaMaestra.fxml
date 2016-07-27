@@ -9,15 +9,14 @@
       <MenuBar BorderPane.alignment="CENTER">
         <menus>
           <Menu mnemonicParsing="false" text="Abrir Ventana">
-            <items>
-              <MenuItem fx:id="menuAutos" mnemonicParsing="false" text="Autos" />
-                  <MenuItem fx:id="menuVendedores" mnemonicParsing="false" text="Vendedores" />
-                  <MenuItem fx:id="menuCompradores" mnemonicParsing="false" text="Compradores" />
-            </items>
+               <items>
+                  <MenuItem fx:id="menuAutos" mnemonicParsing="false" onAction="#menuAutosOnMouseClicked" text="Autos" />
+               </items>
           </Menu>
             <Menu mnemonicParsing="false" text="Ayuda">
               <items>
                 <MenuItem fx:id="menuAyuda" mnemonicParsing="false" text="Ayuda on-line" />
+                  <MenuItem mnemonicParsing="false" text="Salir" />
               </items>
             </Menu>
         </menus>

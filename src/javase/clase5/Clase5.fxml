@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javase.clase5.Clase5Controller">
+   <children>
+      <Button fx:id="btnSalir" layoutX="119.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnSalirOnMouseClicked" prefHeight="27.0" prefWidth="90.0" text="Salir" />
+      <Button fx:id="btnCancelar" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnCancelarOnMouseClicked" prefHeight="27.0" prefWidth="90.0" text="Cancelar" />
+   </children>
+</AnchorPane>
